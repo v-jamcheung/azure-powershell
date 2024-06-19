@@ -131,7 +131,7 @@ namespace Sample.API.Models
         public int? RuntimeMinimumCoreCount { get => ((Sample.API.Models.IDbSystemShapePropertiesInternal)Properties).RuntimeMinimumCoreCount; }
 
         /// <summary>Internal Acessors for AvailableCoreCount</summary>
-        int? Sample.API.Models.IDbSystemShapeInternal.AvailableCoreCount { get => ((Sample.API.Models.IDbSystemShapePropertiesInternal)Properties).AvailableCoreCount; set => ((Sample.API.Models.IDbSystemShapePropertiesInternal)Properties).AvailableCoreCount = value; }
+        int? Sample.API.Models.IDbSystemShapeInternal.AvailableCoreCount { get => ((Sample.API.Models.IDbSystemShapePropertiesInternal)Properties).AvailableCoreCount; set => ((Sample.API.Models.IDbSystemShapePropertiesInternal)Properties).AvailableCoreCount = (int) value; }
 
         /// <summary>Internal Acessors for AvailableCoreCountPerNode</summary>
         int? Sample.API.Models.IDbSystemShapeInternal.AvailableCoreCountPerNode { get => ((Sample.API.Models.IDbSystemShapePropertiesInternal)Properties).AvailableCoreCountPerNode; set => ((Sample.API.Models.IDbSystemShapePropertiesInternal)Properties).AvailableCoreCountPerNode = value; }

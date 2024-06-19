@@ -59,7 +59,7 @@ namespace Sample.API.Models
         string Sample.API.Models.IDnsPrivateViewInternal.DisplayName { get => ((Sample.API.Models.IDnsPrivateViewPropertiesInternal)Properties).DisplayName; set => ((Sample.API.Models.IDnsPrivateViewPropertiesInternal)Properties).DisplayName = value; }
 
         /// <summary>Internal Acessors for IsProtected</summary>
-        bool? Sample.API.Models.IDnsPrivateViewInternal.IsProtected { get => ((Sample.API.Models.IDnsPrivateViewPropertiesInternal)Properties).IsProtected; set => ((Sample.API.Models.IDnsPrivateViewPropertiesInternal)Properties).IsProtected = value; }
+        bool? Sample.API.Models.IDnsPrivateViewInternal.IsProtected { get => ((Sample.API.Models.IDnsPrivateViewPropertiesInternal)Properties).IsProtected; set => ((Sample.API.Models.IDnsPrivateViewPropertiesInternal)Properties).IsProtected = (bool) value; }
 
         /// <summary>Internal Acessors for LifecycleState</summary>
         string Sample.API.Models.IDnsPrivateViewInternal.LifecycleState { get => ((Sample.API.Models.IDnsPrivateViewPropertiesInternal)Properties).LifecycleState; set => ((Sample.API.Models.IDnsPrivateViewPropertiesInternal)Properties).LifecycleState = value; }
@@ -77,10 +77,10 @@ namespace Sample.API.Models
         string Sample.API.Models.IDnsPrivateViewInternal.Self { get => ((Sample.API.Models.IDnsPrivateViewPropertiesInternal)Properties).Self; set => ((Sample.API.Models.IDnsPrivateViewPropertiesInternal)Properties).Self = value; }
 
         /// <summary>Internal Acessors for TimeCreated</summary>
-        global::System.DateTime? Sample.API.Models.IDnsPrivateViewInternal.TimeCreated { get => ((Sample.API.Models.IDnsPrivateViewPropertiesInternal)Properties).TimeCreated; set => ((Sample.API.Models.IDnsPrivateViewPropertiesInternal)Properties).TimeCreated = value; }
+        global::System.DateTime? Sample.API.Models.IDnsPrivateViewInternal.TimeCreated { get => ((Sample.API.Models.IDnsPrivateViewPropertiesInternal)Properties).TimeCreated; set => ((Sample.API.Models.IDnsPrivateViewPropertiesInternal)Properties).TimeCreated = (System.DateTime) value; }
 
         /// <summary>Internal Acessors for TimeUpdated</summary>
-        global::System.DateTime? Sample.API.Models.IDnsPrivateViewInternal.TimeUpdated { get => ((Sample.API.Models.IDnsPrivateViewPropertiesInternal)Properties).TimeUpdated; set => ((Sample.API.Models.IDnsPrivateViewPropertiesInternal)Properties).TimeUpdated = value; }
+        global::System.DateTime? Sample.API.Models.IDnsPrivateViewInternal.TimeUpdated { get => ((Sample.API.Models.IDnsPrivateViewPropertiesInternal)Properties).TimeUpdated; set => ((Sample.API.Models.IDnsPrivateViewPropertiesInternal)Properties).TimeUpdated = (System.DateTime) value; }
 
         /// <summary>Internal Acessors for Id</summary>
         string Sample.API.Models.IResourceInternal.Id { get => ((Sample.API.Models.IResourceInternal)__proxyResource).Id; set => ((Sample.API.Models.IResourceInternal)__proxyResource).Id = value; }

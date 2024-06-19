@@ -52,7 +52,7 @@ namespace Sample.API.Models
         public string ProvisioningState { get => ((Sample.API.Models.IDnsPrivateZonePropertiesInternal)Properties).ProvisioningState; }
 
         /// <summary>Internal Acessors for IsProtected</summary>
-        bool? Sample.API.Models.IDnsPrivateZoneInternal.IsProtected { get => ((Sample.API.Models.IDnsPrivateZonePropertiesInternal)Properties).IsProtected; set => ((Sample.API.Models.IDnsPrivateZonePropertiesInternal)Properties).IsProtected = value; }
+        bool? Sample.API.Models.IDnsPrivateZoneInternal.IsProtected { get => ((Sample.API.Models.IDnsPrivateZonePropertiesInternal)Properties).IsProtected; set => ((Sample.API.Models.IDnsPrivateZonePropertiesInternal)Properties).IsProtected = (bool) value; }
 
         /// <summary>Internal Acessors for LifecycleState</summary>
         string Sample.API.Models.IDnsPrivateZoneInternal.LifecycleState { get => ((Sample.API.Models.IDnsPrivateZonePropertiesInternal)Properties).LifecycleState; set => ((Sample.API.Models.IDnsPrivateZonePropertiesInternal)Properties).LifecycleState = value; }
@@ -70,10 +70,10 @@ namespace Sample.API.Models
         string Sample.API.Models.IDnsPrivateZoneInternal.Self { get => ((Sample.API.Models.IDnsPrivateZonePropertiesInternal)Properties).Self; set => ((Sample.API.Models.IDnsPrivateZonePropertiesInternal)Properties).Self = value; }
 
         /// <summary>Internal Acessors for Serial</summary>
-        int? Sample.API.Models.IDnsPrivateZoneInternal.Serial { get => ((Sample.API.Models.IDnsPrivateZonePropertiesInternal)Properties).Serial; set => ((Sample.API.Models.IDnsPrivateZonePropertiesInternal)Properties).Serial = value; }
+        int? Sample.API.Models.IDnsPrivateZoneInternal.Serial { get => ((Sample.API.Models.IDnsPrivateZonePropertiesInternal)Properties).Serial; set => ((Sample.API.Models.IDnsPrivateZonePropertiesInternal)Properties).Serial = (int) value; }
 
         /// <summary>Internal Acessors for TimeCreated</summary>
-        global::System.DateTime? Sample.API.Models.IDnsPrivateZoneInternal.TimeCreated { get => ((Sample.API.Models.IDnsPrivateZonePropertiesInternal)Properties).TimeCreated; set => ((Sample.API.Models.IDnsPrivateZonePropertiesInternal)Properties).TimeCreated = value; }
+        global::System.DateTime? Sample.API.Models.IDnsPrivateZoneInternal.TimeCreated { get => ((Sample.API.Models.IDnsPrivateZonePropertiesInternal)Properties).TimeCreated; set => ((Sample.API.Models.IDnsPrivateZonePropertiesInternal)Properties).TimeCreated = (System.DateTime) value; }
 
         /// <summary>Internal Acessors for Version</summary>
         string Sample.API.Models.IDnsPrivateZoneInternal.Version { get => ((Sample.API.Models.IDnsPrivateZonePropertiesInternal)Properties).Version; set => ((Sample.API.Models.IDnsPrivateZonePropertiesInternal)Properties).Version = value; }
